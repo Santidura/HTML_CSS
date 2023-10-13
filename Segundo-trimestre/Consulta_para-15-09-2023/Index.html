@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adelaida linda</title>2 
+</head>
+<body>
+
+    <!--Es el orden en el que se distribuye el esapcio entre mas flex shrink le coloque a un div mas rapido se va a encoger-->
+    <div class="flex-container">
+        <h2>flex shrink</h2>
+        <div style="flex-shrink: 4;">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div style="flex-shrink: 6;">5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+
+
+<!--Esto sirve para organizar los elementos por ejemplo todos por predeterminado tienes 0 pero si al div 3 le pongo order 2 se va desplazar al fondo primero que los demas -->
+    <div class="flex-container"> 
+        <h2>flex order</h2>
+        <div style="order: 1;">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div style="order: 0;">5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+
+
+    <!-- lo que hace es que entre mas le coloque se reparte el espacio del 100% de la pantalla o del espacio que tenga-->
+    <div class="flex-container"> 
+        <h2>flex grow</h2>
+        <div  style="flex-grow: 1;">1</div>
+        <div  style="flex-grow: 1;">2</div>
+        <div  style="flex-grow: 4º;">3</div>
+    </div>
+
+    <footer>
+        Hecho por Santiago Durango Hernández
+    </footer>
+       
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+body{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #949191, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #929191, #252525); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+
+.container{
+    display: flex;   
+}
+#r2{
+    width: 50%;
+}
+
+.container{
+    display: flex;   
+}
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu .submenu {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px; 
+    text-align: center  ;    
+}
+
+.menu img {
+    margin-right: 10px; /* Espacio entre la imagen y el primer li */
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+}
+
+.menu li {
+    margin-bottom: 5px; /* Espacio entre los elementos li */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.cuadros{
+    display: flex;
+    background-color: aliceblue;
+    width: 500px;
+    color: #d9ff00;
+    background-color: #11101100;
+    height: 400px;
+    text-align: center;
+    border:3px solid #929191;
+
+}.cuadros section{
+    width: 100%;
+} .cuadros section > div{
+    width: 50%;
+    height: 50%;
+}.cuadros section ~ section > div{
+    border-left: 1px dotted #ffffff;
+}
+section div span{
+    font-size: 80px;
+} 
+
+.what{
+    padding: 10px;
+    margin: 10px;
+    display: grid;    
+    background-color: #d9ff0000;
+    width: 50%;
+
+}
+
+.profession{
+    grid-template-columns: 2fr,auto;
+    background-color: #ffffff00;
+    padding: 20px;
+    color: #ffffff;
+    
+}
+
+.INFO{
+    display: flex;
+    flex-direction: column;
+}
+.c-cuadros{
+    display: flex;
+}
+
+i{
+    font-size: 40px;
+}

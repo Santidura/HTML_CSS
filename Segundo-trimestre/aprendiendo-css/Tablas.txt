@@ -1,0 +1,17 @@
+Significado de algunos terminos en Etiquetas:
+
+<dl> Representa una lista descriptiva en la que mostramos un breve resumen de algo
+<dt> Especifica un termino a una descripcion
+<dd> Significa una descripcion del termino <dt>
+
+Significado de algunos terminos en Tablas:
+
+<tr> Define una fila de celdas en una tabla
+<th> Define el encabezado de un grupo de celdas o sea como si fuera el titulo del <td>
+<td> Define los datos que tiene en la tabla
+
+
+Significado de algunos terminos en Listas no ordenadas:
+
+<ul> El ul es una lista no-ordenada que almacenara unos datos como dice la descripcion "no-ordenados"
+<li> El 'li' declara cada uno de los datos en la lista no-ordenada

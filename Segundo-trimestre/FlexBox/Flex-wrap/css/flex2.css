@@ -1,0 +1,45 @@
+body{color:white;
+    background-color: black;
+}
+.papa{
+    display:flex;
+    flex-direction:row;
+    /* se utiliza para establecer que los elementos flexibles se deben colocar en una fila horizontal. */
+    background-color: purple;
+    
+}
+.pape{
+    display:flex;
+    flex-direction:row-reverse;
+    /* invertira la dirección del eje principal del contenedor flexible, basicamente los elementos secundarios se distribuiran de derecha a izquierda  */
+    background-color: rgb(207, 97, 207);
+}
+.papi{width: 50%;
+    display:flex;
+    flex-direction:column;
+    /*  Se utiliza cuando los elementos dentro del contenedor flex se alinearán en una columna vertical, de arriba a abajo.*/
+    background-color: rgb(255, 241, 47);
+}
+.papo{
+    display:flex;
+    flex-direction:column-reverse;
+    /*Se utiliza cuando los elementos dentro del contenedor flex se alinearán en una columna vertical, de abajo a arriba.  */
+    background-color: rgb(77, 228, 60);
+}
+.papu{
+    display:flex;
+    flex-wrap:nowrap;
+    /* Este evita que los elementos flexibles se muevan a una nueva línea o fila cuando no hay espacio suficiente y, en su lugar, fuerza a los elementos a permanecer en la misma línea o fila, lo que podría provocar un desbordamiento del contenedor si no hay suficiente espacio. */
+    background-color: rgb(62, 108, 225);
+}
+.papae{
+    display:flex;
+    flex-wrap:wrap;
+    /*  los elementos flexibles pueden envolverse o moverse a la siguiente línea cuando no hay suficiente espacio horizontal o vertical disponible, según la dirección especificada */
+    background-color: rgb(234, 123, 68);
+}
+img,.hijos{
+    border:1px solid rgb(255, 255, 255);
+    width:200px;
+    height:200px;
+}

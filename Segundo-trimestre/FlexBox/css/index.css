@@ -1,0 +1,73 @@
+
+body{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.a:hover .text{
+    display:block;
+}
+
+.container{
+    width: 70%;
+    display:flex;
+    justify-content: space-between;
+    border: 3px  solid black;
+    margin: auto;
+
+}
+
+.a{
+    width: 20%;
+    position: relative;
+
+}
+
+img{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    bottom : 0;
+    display: none;
+    width: 100%;
+}
+
+.container1{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    margin: auto;
+}
+.b{
+    width: 20%;
+    position: relative;
+
+}
+
+.b:hover .text{
+    display: block;
+}   
+
+
+.container2{
+    width: 70%;
+    display:flex;
+    justify-content: space-between;
+    border: 3px  solid black;
+    margin: auto;
+
+}
+
+.c{
+    width: 20%;
+    position: relative;
+
+}
+
+.c:hover .text{
+    display: block;
+}  

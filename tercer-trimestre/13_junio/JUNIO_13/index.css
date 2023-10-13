@@ -1,0 +1,53 @@
+/* En CSS, la unidad de medida em se utiliza para establecer tamaños relativos basados en el tamaño de fuente del elemento padre.
+Cuando se define un valor en em,
+ este valor se multiplica por el tamaño de fuente del elemento padre para determinar el tamaño final. 
+ Si no se especifica ningún tamaño de fuente en el elemento padre, 
+ se tomará el tamaño de fuente del elemento raíz del documento, que es normalmente el tamaño de fuente del elemento html. */
+
+ html{
+    font-size: 10px;
+ }
+
+ .po{
+    font-size: 60px;
+    color: rgb(245, 245, 245);
+ }
+
+.pi{
+    font-size:1.8em;
+    color: aliceblue;
+ }
+
+ li{
+    font-size: 2rem;
+ }
+ 
+
+
+ /*  la unidad de medida rem se utiliza para establecer tamaños relativos basados en el tamaño de fuente del elemento raíz del documento, 
+ normalmente el tamaño de fuente del elemento html.
+  A diferencia de la unidad em, que se basa en el tamaño de fuente del elemento padre, 
+  rem siempre se refiere al tamaño de fuente del elemento raíz.
+  La principal ventaja de utilizar rem es que proporciona un método de escala consistente para todos los elementos de la página, 
+  sin importar su jerarquía de anidamiento. Esto resulta especialmente útil en el diseño responsive, 
+  ya que los elementos se escalan de manera proporcional a medida que se ajusta el tamaño de fuente del documento. */
+
+  div{
+    font-size: 4rem;
+    color: aliceblue;
+  }
+
+  .pu{
+    font-size: 2rem;
+    color: aliceblue;
+  }
+
+  strong{
+    font-size: 1.2em;
+  }
+
+   body{
+    background: -webkit-linear-gradient(to right,black ,green);
+    background: linear-gradient(to left,green,black);
+
+  }

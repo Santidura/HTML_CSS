@@ -1,0 +1,118 @@
+
+body{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #949191, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #929191, #252525); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    height: 20%;
+    width: 95%;
+}
+
+
+.container{
+    display: flex; 
+}
+#r2{
+    width: 50%;
+}
+
+
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu .submenu {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px; 
+    text-align: center  ;    
+}
+
+.menu img {
+    margin-right: 10px; /* Espacio entre la imagen y el primer li */
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+}
+
+.menu li {
+    margin-bottom: 5px; /* Espacio entre los elementos li */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.resume{
+    display: grid;
+    grid-template-columns: 3,auto;
+}
+.all{
+    display: flex;
+    background-color: #929191;
+    border: 3px solid white;
+}.all div{
+    border: 2px solid black;
+}
+
+.what{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    background-color: #d9ff0000;
+    width: 50%;
+
+}
+
+.profession{
+    background-color: #ffffff00;
+    padding: 20px;
+    color: #000000;
+    
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fuente para el texto */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 8px;
+    margin-top: 10px; 
+    margin-right: 40px;
+}
+
+.image-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff; /* Borde para cada cuadro de imagen */
+    padding: 10px;
+    background-color: rgba(78, 78, 78, 0.534);
+}
+
+.image-item img {
+    max-width: 50%; /* Ajusta el tamaño de la imagen */
+    height: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.image-item{
+    width: 100%;
+    height: 80%;
+}

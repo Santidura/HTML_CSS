@@ -1,0 +1,12 @@
+dt { 
+    margin-top: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+  }
+  
+  dd {
+    margin-left: 0;
+    margin-bottom: 16px;
+    font-family: 'Courier New', Courier, monospace;
+  }

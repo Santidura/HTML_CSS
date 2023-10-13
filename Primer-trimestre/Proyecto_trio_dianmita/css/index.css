@@ -1,0 +1,9 @@
+*{ margin: 0;padding: 0;box-sizing: border-box;}
+.nav{ color: rgb(216, 32, 32);background-color: rgb(0, 0, 0);width: 100%;display: flex;font-family: Arial, Helvetica, sans-serif;}
+.menu{ width: 80%;align-items: center;display: flex;justify-content: center;align-items: center;}
+
+.menu li{list-style: none;margin: 5px 30px; position: relative;}
+
+.sub-menu{display: none;position: absolute;background-color: black; }
+
+.menu li:hover .sub-menu{ display: block;}

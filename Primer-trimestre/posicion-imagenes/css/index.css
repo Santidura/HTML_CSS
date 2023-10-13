@@ -1,0 +1,8 @@
+img{width:250PX; height: auto; align-items: center;display: flex;}
+td,th{border: 1px solid rgb(0, 0, 0);}
+td{background-color: rgb(138, 243, 243); font-size: 17px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+th{background-color: rgb(247, 134, 134); font-size: 20px;}
+.cols{background-color: blueviolet;}
+table{border-collapse: collapse;}
+.fondo{background-color: blue;}
+.column-1{font-family: 'Times New Roman', Times, serif;}

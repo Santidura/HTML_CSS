@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cálculo de porcentajes</title>
+  <link rel="stylesheet" href="./porcentaje.css">
+  <script>
+    function calcularPorcentaje() {
+      var cantidad = parseFloat(document.getElementById("cantidad").value);
+      var porcentaje = parseFloat(document.getElementById("porcentaje").value);
+
+      var resultado = cantidad * (porcentaje / 100);
+      
+      document.getElementById("resultado").innerHTML = "El " + porcentaje + "% de " + cantidad + " es: " + resultado;
+    }
+  </script>
+</head>
+<body>
+  <h1>Cálculo de porcentajes</h1>
+  <label for="cantidad">Cantidad:</label>
+  <input type="text" id="cantidad">
+  <br>
+  <label for="porcentaje">Porcentaje:</label>
+  <input type="text" id="porcentaje">
+  <br>
+  <button onclick="calcularPorcentaje()">Calcular</button>
+  <p id="resultado"></p>
+</body>
+</html>
+
+  

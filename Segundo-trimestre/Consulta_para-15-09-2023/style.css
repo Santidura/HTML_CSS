@@ -1,0 +1,23 @@
+h2{
+    color: aliceblue;
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(26, 27, 27);
+    justify-content: center;
+}
+
+.flex-container div{
+    background-color: rgb(123, 118, 128);
+    margin: 5px;
+    width:50px ;
+    color: aliceblue;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

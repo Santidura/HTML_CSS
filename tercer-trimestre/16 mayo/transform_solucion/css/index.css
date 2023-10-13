@@ -1,0 +1,58 @@
+
+body {
+    padding: 3rem;
+    background: #bb7fec;
+}
+
+h1 + div{
+    display: grid;
+    grid-template-columns: 1fr   ;
+    grid-gap: 20px;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+}
+.container div p {
+    position: absolute;
+    bottom: 0;
+    display: none;
+    left: 0;
+    background: #6b6b6b;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+.one{
+    transform: rotate(40deg);
+    position: absolute; left: 300px;
+}
+
+.two{
+    transform: scale(0.7);
+    position: absolute; left: 300px;
+}
+
+.three{
+    transform: skewX(20deg);
+    position: absolute; left: 300px;
+}
+
+.fourth{
+    transform: skewy(20deg);
+    position: absolute; left: 300px;
+}
+.five{
+    transform: translate(30px);
+    position: absolute; left: 300px;
+}
+
+h1{
+    text-align: center;
+}

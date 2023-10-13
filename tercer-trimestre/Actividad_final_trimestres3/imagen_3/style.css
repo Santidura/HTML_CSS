@@ -1,0 +1,30 @@
+.headersito{
+    background-color: rgb(219, 0, 0);
+    padding: 5px;
+    height: auto;
+    width: auto;
+    display: flex;
+    border: 5px solid rgb(0, 0, 0);
+    margin: auto;
+    color:aliceblue;
+}
+
+footer{
+    background-color: rgb(30, 177, 25);
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;  
+    display: flex;
+    color: aliceblue;
+}
+
+.centro{
+    background-color: rgb(185, 156, 23);
+    color: aliceblue;
+    display: flex;
+   
+}
+
+.centro div{
+    height: 20rem;
+    border: 3px solid black;
+}
